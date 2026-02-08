@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>TVS Job Card</title>
+
+<style>
+body{
+    font-family: Arial;
+}
+table{
+    width:100%;
+    border-collapse: collapse;
+    font-size:12px;
+}
+td,th{
+    border:1px solid black;
+    padding:4px;
+}
+input{
+    border:none;
+    width:100%;
+    outline:none;
+}
+.center{
+    text-align:center;
+}
+.bold{
+    font-weight:bold;
+}
+.job-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+.job-table th, .job-table td {
+    border: 1px solid #000;
+    padding: 4px;
+    vertical-align: middle;
+}
+.job-table th {
+    background: #e6f2f4;
+    font-weight: bold;
+    text-align: center;
+}
+.center { text-align: center; }
+.checkbox { width: 16px; height: 16px; }
+.note {
+    background: #0b2c6f;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<table>
+
+<!-- HEADER -->
+<tr>
+<td rowspan="2" class="bold">TVS</td>
+<td rowspan="2" colspan="3" class="bold">Shyama Automobiles</td>
+<td>JC No.</td>
+<td colspan="2"><input></td>
+</tr>
+
+<tr>
+<td>DMS No.</td>
+<td colspan="2"><input></td>
+</tr>
+
+<tr>
+<td class="bold">IN DATE & TIME :</td>
+<td colspan="3"><input></td>
+
+<td class="bold">Promised Delivery Date & Time</td>
+<td colspan="2"><input></td>
+</tr>
+
+</table>
+
+<!-- CUSTOMER DETAILS -->
+<table>
+
+<tr>
+<td colspan="3" class="bold">Customer Name & Address</td>
+<td class="center bold">Booked Vehicle</td>
+<td class="center bold">Customer Waiting</td>
+<td class="center bold">Repeat Job</td>
+</tr>
+
+<tr>
+<td colspan="3"><input></td>
+<td rowspan="4"></td>
+<td rowspan="4"></td>
+<td rowspan="4"></td>
+</tr>
+
+<tr>
+<td colspan="3"><input></td>
+</tr>
+
+<tr>
+<td>Mob No 1</td>
+<td colspan="2"><input></td>
+</tr>
+
+<tr>
+<td>Mob No 2</td>
+<td colspan="2"><input></td>
+</tr>
+
+</table>
+
+<!-- VEHICLE DETAILS -->
+<table>
+
+<tr>
+<td class="bold">Registration No.</td>
+<td><input></td>
+<td class="bold">Model</td>
+<td><input></td>
+</tr>
+
+<tr>
+<td>Date Of Sale</td>
+<td><input></td>
+<td>Colour</td>
+<td><input></td>
+</tr>
+
+<tr>
+<td>Frame No.</td>
+<td><input></td>
+<td>Insurance Valid</td>
+<td class="center">Y / N</td>
+</tr>
+
+<tr>
+<td>Engine No.</td>
+<td><input></td>
+<td>AMC Status</td>
+<td class="center">Y</td>
+</tr>
+
+<tr>
+<td>AMC Scheme & Policy No.</td>
+<td colspan="3"><input></td>
+</tr>
+
+<tr>
+<td>EW Scheme & Policy No.</td>
+<td colspan="3"><input></td>
+</tr>
+
+<tr>
+<td>RSA Policy Name & Policy No.</td>
+<td colspan="3"><input></td>
+</tr>
+
+<tr>
+<td>RSA Start Date & End Date</td>
+<td colspan="3"><input></td>
+</tr>
+
+</table>
+
+<!-- SERVICE DETAILS -->
+<table>
+
+<tr>
+<td>Birthday</td>
+<td>Type of Job</td>
+<td>KMs</td>
+<td>Warranty</td>
+<td>Warranty Date</td>
+<td>Extended Warranty</td>
+</tr>
+
+<tr>
+<td><input></td>
+<td><input></td>
+<td><input></td>
+<td class="center">Y</td>
+<td><input></td>
+<td><input></td>
+</tr>
+
+</table>
+
+<!-- ACCESSORIES -->
+<table>
+
+<tr>
+<td colspan="4" class="center bold">ACCESSORIES CHECK</td>
+<td colspan="2" class="center bold">Fuel Quantity</td>
+</tr>
+
+<tr>
+<td><input type="checkbox"> TOOL KIT</td>
+<td><input type="checkbox"> HAND GRIP</td>
+<td><input type="checkbox"> FIRST AID KIT</td>
+<td><input type="checkbox"> UTILITY BOX</td>
+<td colspan="2" rowspan="3"></td>
+</tr>
+
+<tr>
+<td><input type="checkbox"> MIRROR</td>
+<td><input type="checkbox"> MUD COVER</td>
+<td><input type="checkbox"> FLOOR MAT</td>
+<td></td>
+</tr>
+
+<tr>
+<td><input type="checkbox"> SEAT COVER</td>
+<td><input type="checkbox"> HELMET LOCK</td>
+<td colspan="2">ANY EXTRA FITTINGS NOT RECOMMENDED</td>
+</tr>
+
+</table>
+
+<!-- JOB MENU -->
+
+
+<table class="job-table">
+
+<!-- HEADER -->
+<tr>
+    <th colspan="2">General Jobs Menu</th>
+    <th>Action</th>
+    <th colspan="2">General Jobs Menu</th>
+    <th>Action</th>
+    <th colspan="2">PHYSICAL & PAINT CONDITION</th>
+</tr>
+
+<tr>
+    <td colspan="6"></td>
+    <td colspan="2" class="center">
+        DENT - D &nbsp;&nbsp; SCRATCH - S &nbsp;&nbsp; BROKEN - B &nbsp;&nbsp; MISSING - M &nbsp;&nbsp; PEEL OFF - P
+    </td>
+</tr>
+
+<tr>
+    <td colspan="3"></td>
+    <td colspan="3"></td>
+    <th>LH Side</th>
+    <th>RH Side</th>
+</tr>
+
+<!-- ROW 1 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Engine Oil replace / Top up</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Air filter <b>RP/CL</b></td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ROW 2 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Engine oil filter replace</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Spark plug <b>C&A/RP/CL</b></td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ROW 3 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Washing & Polishing</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Brake FR & RR <b>C&A/RP/CL</b></td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ROW 4 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Battery Charging</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Drive chain related <b>C&A/RP/CL</b></td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ROW 5 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Tappet adjustment</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Accelerator related <b>C&A/RP</b></td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ROW 6 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Cylinder head decarbonising</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Clutch Cable/plate <b>C&A/RP</b></td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ROW 7 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Inspect & tighten all fastner</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Inspect & adjust air pressure</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ROW 8 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Silencer Cleaning</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Horn related <b>C&A/RP</b></td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ROW 9 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Steering Operation</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Head light related <b>C&A/RP</b></td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- ROW 10 -->
+<tr>
+    <td><input type="checkbox" class="checkbox"> Wego/Jupiter/Zest Kit replace</td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td>Belt drive related <b>RP/CL</b></td>
+    <td></td>
+    <td class="center"><input type="checkbox" class="checkbox"></td>
+
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- FOOTER NOTES -->
+<tr>
+    <td colspan="6" class="note">
+        C & A - Check & Adjust &nbsp;&nbsp; RP - Replace (if required) &nbsp;&nbsp; CL - Clean
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td colspan="6" class="note">
+        In Action column ✓ if done (or) ✗ if not done
+    </td>
+    <td></td>
+    <td></td>
+</tr>
+
+</table>
+
+<!--New section -->
+<style>
+.finding-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:12px;
+}
+.finding-table th,
+.finding-table td{
+    border:1px solid #000;
+    padding:5px;
+    vertical-align:top;
+}
+.finding-table th{
+    background:#e6f2f4;
+    text-align:center;
+    font-weight:bold;
+}
+.small-center{
+    text-align:center;
+}
+.bold{font-weight:bold;}
+.blue{color:#0033cc;}
+</style>
+
+<table class="finding-table">
+
+<!-- MAIN HEADERS -->
+<tr>
+    <th>DEMANDED REPAIRS / CUSTOMER COMPLAINTS</th>
+    <th>Diagnosis before repair (SA / Expert technician observation)</th>
+    <th>FINAL FINDING<br>(Final observation after repairs by Technician / SA)</th>
+    <th>ACTION TAKEN</th>
+    <th>Labour Cost</th>
+</tr>
+
+<!-- LARGE INPUT ROW -->
+<tr style="height:180px">
+    <td>
+        <b>General Service as per above Menu</b><br><br>
+        <span class="blue">
+        - Low Mileage (21 - 30 KMPL)<br>
+        - Poor Pick up during high speeds<br>
+        - Starting Trouble During Morning
+        </span>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+<!-- PREVIOUS SERVICE NOTE -->
+<tr>
+    <td colspan="5">
+        <b>* Previous service details available only if available</b>
+    </td>
+</tr>
+
+<!-- JOB CARD META -->
+<tr>
+    <td class="small-center"><b>Job Card No</b></td>
+    <td class="small-center"><b>Job Card Dt</b></td>
+    <td class="small-center"><b>Kms</b></td>
+    <td class="small-center"><b>Last PSF Score</b></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td class="small-center">8492</td>
+    <td class="small-center">08/01/2024</td>
+    <td class="small-center">5304</td>
+    <td class="small-center"></td>
+    <td></td>
+</tr>
+
+<tr>
+    <td class="small-center"><b>Job Type</b></td>
+    <td class="small-center"><b>Mechanic</b></td>
+    <td colspan="3"></td>
+</tr>
+
+<tr>
+    <td class="small-center">Accident Repair</td>
+    <td class="small-center"></td>
+    <td colspan="3"></td>
+</tr>
+
+<tr>
+    <td class="small-center"><b>Complaints</b></td>
+    <td colspan="4">Accident-Damages</td>
+</tr>
+
+<tr>
+    <td class="small-center"><b>Observations</b></td>
+    <td colspan="4"></td>
+</tr>
+
+<!-- PARTS -->
+<tr>
+    <td class="small-center bold">Parts</td>
+    <td colspan="4">
+        NF150160-LEVER ASSY CLUTCH, N9221450-MIRROR ASSLY LH RTR,
+        NF150070-DAMPER HANDLE BAR, N9223970-FOOTREST ASSY,
+        N9225950-TANKGUARD COMP LH BSVI, N9222840-PILLION FOOTREST L,
+        APACHE REF, M7081650-GEAR SHIFT LINKAGE ASSY,
+        R92210507D-PILLION HANDLE L TITAN GREY 2V,
+        N9221110-HOUSING HEADLAMP REAR,
+        NF229760-HEADLAMP LED,
+        NF223220-TURN SIGNAL LAMP FR ASSY L BSVI
+    </td>
+</tr>
+
+<!-- ESTIMATED COST -->
+<tr>
+    <td class="bold small-center">ESTIMATED COST</td>
+    <td class="small-center"><b>PARTS</b></td>
+    <td class="small-center"><b>OIL</b></td>
+    <td class="small-center"><b>LABOUR</b></td>
+    <td class="small-center"><b>OUTSIDE JOBS</b></td>
+</tr>
+
+<tr>
+    <td></td>
+    <td class="small-center blue">12000.00</td>
+    <td class="small-center blue">0.00</td>
+    <td class="small-center blue">400.00</td>
+    <td class="small-center blue">0.00</td>
+</tr>
+
+<tr>
+    <td class="bold small-center">TOTAL COST</td>
+    <td colspan="4" class="small-center blue"><b>12400.00</b></td>
+</tr>
+
+<!-- SIGNATURE / TIME -->
+<tr>
+    <td class="bold small-center">SERVICE ADVISOR</td>
+    <td class="small-center blue">VIVEK KUMAR</td>
+    <td class="bold small-center">TECHNICIAN NAME</td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td class="bold small-center">FLOOR SUPERVISOR</td>
+    <td></td>
+    <td class="bold small-center">TEST RIDE BEFORE / AFTER</td>
+    <td class="small-center">/</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td colspan="3"></td>
+    <td class="bold small-center">WORK STARTING TIME</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td colspan="3"></td>
+    <td class="bold small-center">WORK FINISHING TIME</td>
+    <td></td>
+</tr>
+
+</table>
+
+<!-- END OF JOB CARD -->
+ <style>
+.ack-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:12px;
+}
+.ack-table td, .ack-table th{
+    border:1px solid #000;
+    padding:6px;
+    vertical-align:top;
+}
+.ack-head{
+    text-align:center;
+    font-weight:bold;
+    font-size:14px;
+}
+.box{
+    border:1px solid #000;
+    padding:6px;
+    margin-top:5px;
+}
+.blue{ color:#0033cc; }
+.bold{ font-weight:bold; }
+.center{ text-align:center; }
+
+.service-box{
+    background:#4f6f8f;
+    color:#fff;
+    padding:10px;
+    border-radius:6px;
+    font-weight:bold;
+}
+</style>
+
+<table class="ack-table">
+
+<!-- HEADER -->
+<tr>
+    <th colspan="6" class="ack-head">ACKNOWLEDGEMENT</th>
+</tr>
+
+<!-- TOP DETAILS -->
+<tr>
+    <td rowspan="3" colspan="2">
+        <b>Authorised Main Dealer - TVS Motor</b><br>
+        Shyama Automobiles, Near Power Sub-Station, Kandi
+        <div class="box">
+            <b>Service Shop Contact No. :</b>
+            <span class="blue">7903528217</span>
+        </div>
+    </td>
+
+    <td>
+        Reg. No.<br>
+        <span class="blue">JH14K5333</span>
+    </td>
+
+    <td>
+        Model<br>
+        <span class="blue">APACHE RTR 160 2V RM DISC BT</span>
+    </td>
+
+    <td colspan="2">
+        Colour<br>
+        <span class="blue">TVS APACHE RTR160-2VRM OBDIIA DISC BTR.R</span>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        JC No.<br>
+        <span class="blue">9067</span>
+    </td>
+
+    <td>
+        Service Advisor Name<br>
+        <span class="blue">VIVEK KUMAR</span>
+    </td>
+
+    <td colspan="2">
+        Contact no.<br>
+        <span class="blue">8102356761</span>
+    </td>
+</tr>
+
+<tr>
+    <td>
+        IN DATE<br>
+        <span class="blue">07-05-2024</span>
+    </td>
+
+    <td>
+        TIME<br>
+        <span class="blue">2:11 PM</span>
+    </td>
+
+    <td>
+        EXPECTED DLY DATE<br>
+        <span class="blue">07-05-24</span>
+    </td>
+
+    <td>
+        TIME<br>
+        <span class="blue">2:10 PM</span>
+    </td>
+</tr>
+
+<!-- NOTE + WORKING TIME -->
+<tr>
+    <td colspan="4">
+        Please bring this slip for taking delivery of your vehicle.
+        Storage charge at Rs.___/ per day will be charged from date onwards if
+        vehicle delivery is not taken on / or before the date.
+        This slip valid upto 30 Days from the in date.<br><br>
+        <b>Kindly collect the Old parts while vehicle delivery.</b>
+    </td>
+
+    <td colspan="2">
+        <div class="box center">
+            <b>Working time</b><br><br>
+            Working Hours 9 AM - 7 PM<br>
+            Every Sunday will be holiday
+        </div>
+    </td>
+</tr>
+
+<!-- VALUE ADDED SERVICES -->
+<tr>
+    <td colspan="6" class="bold">Please Utilize Our Value added Services:</td>
+</tr>
+
+<tr>
+    <td>
+        <div class="service-box">Express Service<br>Contact No:</div>
+    </td>
+    <td>
+        <div class="service-box">Expert On Wheels<br>Contact No:</div>
+    </td>
+    <td>
+        <div class="service-box">Road side Assistance:<br>1800 2587111</div>
+    </td>
+    <td>
+        <div class="service-box">Pickup & Drop<br>Contact No:</div>
+    </td>
+    <td colspan="2">
+        <div class="service-box">Mileage Checking</div>
+    </td>
+</tr>
+
+<!-- FOOTER CONTACT -->
+<tr>
+    <td colspan="6">
+        <div class="service-box" style="width:200px;">Contact No:</div>
+    </td>
+</tr>
+
+</table>
+
+<!-- New page 2-->
+<style>
+.parts-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:12px;
+}
+.parts-table th,
+.parts-table td{
+    border:1px solid #000;
+    padding:4px;
+    vertical-align:middle;
+}
+.parts-table th{
+    font-weight:bold;
+    text-align:center;
+}
+.center{text-align:center;}
+.right{text-align:right;}
+.bold{font-weight:bold;}
+.light{
+    background:#e6f2f4;
+}
+.bigcell{
+    height:160px;
+}
+</style>
+
+<table class="parts-table">
+
+<!-- PARTS CONSUMED HEADER -->
+<tr>
+    <th colspan="12" class="center">PARTS CONSUMED</th>
+</tr>
+
+<!-- COLUMN HEADERS -->
+<tr>
+    <th colspan="2">PART NO</th>
+    <th colspan="4">DESCRIPTION</th>
+    <th>QTY</th>
+    <th colspan="2">AMOUNT<br>Rs</th>
+    <th>Ps</th>
+
+    <th colspan="2">PART NO</th>
+    <th colspan="4">DESCRIPTION</th>
+    <th>QTY</th>
+    <th colspan="2">AMOUNT<br>Rs</th>
+    <th>Ps</th>
+</tr>
+
+<!-- EMPTY ROWS -->
+<tr class="bigcell">
+    <td colspan="10"></td>
+    <td colspan="10"></td>
+</tr>
+
+<tr class="bigcell">
+    <td colspan="10"></td>
+    <td colspan="10"></td>
+</tr>
+
+<!-- LEFT SIDE DETAILS -->
+<tr>
+    <td colspan="6" class="bold">DRAINED OIL QUANTITY</td>
+    <td colspan="14"></td>
+</tr>
+
+<tr>
+    <td colspan="6" class="bold">COMPRESSION PRESSURE</td>
+    <td colspan="7" class="center bold">BEFORE</td>
+    <td colspan="7" class="center bold">AFTER</td>
+</tr>
+
+<tr>
+    <td colspan="6">CO%</td>
+    <td colspan="7"></td>
+    <td colspan="7"></td>
+</tr>
+
+<tr>
+    <td colspan="6">HC</td>
+    <td colspan="7"></td>
+    <td colspan="7"></td>
+</tr>
+
+<tr>
+    <td colspan="6">IDLING RPM</td>
+    <td colspan="7"></td>
+    <td colspan="7"></td>
+</tr>
+
+<tr>
+    <td colspan="6">BATTERY VOLTAGE</td>
+    <td colspan="7"></td>
+    <td colspan="7"></td>
+</tr>
+
+<tr>
+    <td colspan="6">BATTERY SPECIFIC GRAVITY</td>
+    <td colspan="7"></td>
+    <td colspan="7"></td>
+</tr>
+
+<tr>
+    <td colspan="6">TYRE PRESSURE (FR)</td>
+    <td colspan="7"></td>
+    <td colspan="7"></td>
+</tr>
+
+<tr>
+    <td colspan="6">TYRE PRESSURE (RR)</td>
+    <td colspan="7"></td>
+    <td colspan="7"></td>
+</tr>
+
+<!-- RIGHT SIDE TOTALS -->
+<tr>
+    <td colspan="10"></td>
+    <td colspan="10" class="light center bold">Total parts amount (A)</td>
+</tr>
+
+<tr>
+    <td colspan="10"></td>
+    <td colspan="8" class="bold">Labour Description</td>
+    <td class="center bold">Rs</td>
+    <td class="center bold">Ps</td>
+</tr>
+
+<tr class="bigcell">
+    <td colspan="10"></td>
+    <td colspan="10"></td>
+</tr>
+
+<tr>
+    <td colspan="10"></td>
+    <td colspan="10" class="light center bold">Total Labour cost (B)</td>
+</tr>
+
+<tr>
+    <td colspan="10"></td>
+    <td colspan="10" class="light center bold">Total Bill Amount (A+B)</td>
+</tr>
+
+<!-- FINAL INSPECTION -->
+<tr>
+    <td colspan="20" class="light center bold">FINAL INSPECTION</td>
+</tr>
+
+<tr>
+    <td colspan="6" class="center bold">FI DONE BY</td>
+    <td colspan="6" class="center bold">OK / NOT OK</td>
+    <td colspan="8" class="center bold">SUP. SIGN</td>
+</tr>
+
+<tr>
+    <td colspan="6" style="height:40px"></td>
+    <td colspan="6"></td>
+    <td colspan="8"></td>
+</tr>
+
+<tr>
+    <td colspan="20" class="bold">FI REMARKS:</td>
+</tr>
+
+<tr>
+    <td colspan="20" style="height:40px"></td>
+</tr>
+
+<tr>
+    <td colspan="20" class="bold">ACTION TAKEN:</td>
+</tr>
+
+<tr>
+    <td colspan="20" style="height:40px"></td>
+</tr>
+
+<!-- ADDITIONAL JOBS -->
+<tr>
+    <td colspan="10"></td>
+    <td colspan="10" class="light center bold">ADDITIONAL JOBS REQUIRED</td>
+</tr>
+
+<tr>
+    <td colspan="10"></td>
+    <td colspan="10" style="height:80px"></td>
+</tr>
+
+</table>
+
+<!-- customer contact details -->
+<style>
+.auth-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:12px;
+}
+.auth-table th,
+.auth-table td{
+    border:1px solid #000;
+    padding:6px;
+    vertical-align:top;
+}
+.auth-head{
+    background:#e6f2f4;
+    font-weight:bold;
+    text-align:center;
+}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.bigcell{height:60px;}
+</style>
+
+<table class="auth-table">
+
+<!-- HEADER -->
+<tr>
+    <th colspan="6" class="auth-head">
+        CUSTOMER CONTACT DETAILS FOR (ADDITIONAL JOB / VEHICLE READY REMINDER)
+    </th>
+</tr>
+
+<!-- CONTACT DETAILS -->
+<tr>
+    <td colspan="2" class="bold">PERSON CONTACTED</td>
+    <td colspan="2" class="bold">CONTACTED BY</td>
+    <td class="bold">REVISED DELIVERY TIME</td>
+    <td></td>
+</tr>
+
+<tr>
+    <td colspan="2" class="bold">DATE OF CONTACT</td>
+    <td colspan="2" class="bold">TIME OF CONTACT</td>
+    <td class="bold">REVISED ESTIMATED COST</td>
+    <td></td>
+</tr>
+
+<!-- ADDITIONAL PARTS -->
+<tr>
+    <td colspan="6" class="bold">ADDITIONAL PARTS DETAILS</td>
+</tr>
+
+<tr>
+    <td colspan="6" class="bigcell"></td>
+</tr>
+
+<!-- CUSTOMER COMMENTS -->
+<tr>
+    <td colspan="6" class="bold">CUSTOMER COMMENTS:</td>
+</tr>
+
+<tr>
+    <td colspan="6" class="bigcell"></td>
+</tr>
+
+<!-- CUSTOMER AUTHORISATION -->
+<tr>
+    <td colspan="6" class="center bold">CUSTOMER'S AUTHORISATION</td>
+</tr>
+
+<tr>
+    <td colspan="6">
+        I / We authorise M/s. (Dealer Name) to carry out the above jobs on the vehicle.
+        I / We also understand that there may be a need for further jobs / repairs during
+        the course of work and authorise the service shop to carry out any such jobs /
+        repairs as found necessary to make the vehicle road worthy.
+        I / We leave the vehicle in the above condition and at my / our own risk and shall
+        not hold the service shop responsible for any loss or damage that may occur during
+        storage, services or trials due to accidents, riots, fire, floods or any such happenings
+        due to reasons beyond their control.
+        Also I / We accept to deliver the vehicle to Financiers / bankers / legal department,
+        if have any financial dues / legal issues (Getting proper documents).
+        <br><br>
+        ☐ <span style="color:#0033cc;font-weight:bold;">
+        Kindly ✓ if No objective for PSF feedback tele calls by Dealer or manufacturer
+        or their authorised call centres in following (or) ✗ if don't want PSF feedback Calls
+        </span>
+    </td>
+</tr>
+
+<!-- SIGNATURE -->
+<tr>
+    <td colspan="3" class="bold">Service advisor sign</td>
+    <td colspan="3" class="bold center">Customer's sign and Date</td>
+</tr>
+
+<tr>
+    <td colspan="3" style="height:40px;"></td>
+    <td colspan="3"></td>
+</tr>
+
+</table>
+
+<!-- last section-->
+<style>
+.delivery-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:12px;
+}
+.delivery-table th,
+.delivery-table td{
+    border:1px solid #000;
+    padding:6px;
+    vertical-align:top;
+}
+.center{text-align:center;}
+.bold{font-weight:bold;}
+.light{background:#e6f2f4;}
+.smallbox{
+    display:inline-block;
+    border:1px solid #000;
+    width:120px;
+    height:18px;
+    vertical-align:middle;
+}
+.signbox{
+    height:40px;
+}
+</style>
+
+<table class="delivery-table">
+
+<!-- DELIVERY CERTIFICATE -->
+<tr>
+    <th colspan="6" class="center bold">DELIVERY CERTIFICATE</th>
+</tr>
+
+<tr>
+    <td colspan="6">
+        I / We have taken delivery of my / our vehicle Reg. No.
+        <span style="color:#0033cc;font-weight:bold;">JH14K5333</span>
+        on <span class="smallbox"></span>
+        after due repairs / servicing in good condition to my / our entire satisfaction
+        and receive old parts (those not covered under warranty) replaced in my vehicle.
+        <br><br>
+        DELIVERY TIME <span class="smallbox"></span>
+    </td>
+</tr>
+
+<tr>
+    <td colspan="3" class="bold">Date :</td>
+    <td colspan="3" class="bold right">Customer's Sign</td>
+</tr>
+
+<tr>
+    <td colspan="3" class="signbox"></td>
+    <td colspan="3" class="signbox"></td>
+</tr>
+
+<!-- SEPARATOR -->
+<tr>
+    <td colspan="6" style="border-top:2px dashed #000;"></td>
+</tr>
+
+<!-- GATE PASS -->
+<tr>
+    <th colspan="6" class="center bold">GATE PASS</th>
+</tr>
+
+<tr>
+    <td colspan="6">
+        J.C. No. ___________<br>
+        We hereby authorise the release of the Vehicle Reg. No. ___________
+        Model ___________ from the service shop
+    </td>
+</tr>
+
+<tr>
+    <td colspan="3">
+        Date :
+    </td>
+    <td colspan="3">
+        Time :
+    </td>
+</tr>
+
+<!-- ESTIMATED COST -->
+<tr>
+    <td colspan="6" class="center bold">Estimated Cost (Approx.)</td>
+</tr>
+
+<tr class="center bold">
+    <td>Parts</td>
+    <td>Oil</td>
+    <td>Lbr</td>
+    <td>O/Lbr</td>
+    <td colspan="2">Total</td>
+</tr>
+
+<tr>
+    <td style="height:30px;"></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td colspan="2"></td>
+</tr>
+
+<tr>
+    <td colspan="4"></td>
+    <td colspan="2" class="bold center">Security Sign with Stamp</td>
+</tr>
+
+<tr>
+    <td colspan="4"></td>
+    <td colspan="2" class="signbox"></td>
+</tr>
+
+</table>
+
+</body>
+</html>
