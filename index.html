@@ -82,6 +82,7 @@ input{
 
 </table>
 
+
 <!-- CUSTOMER DETAILS -->
 <table>
 
@@ -1141,6 +1142,37 @@ input{
 </tr>
 
 </table>
+
+<div class="print-actions">
+    <button type="button" class="print-button" onclick="window.print()">Save as PDF</button>
+</div>
+
+<style>
+.print-actions{
+    display:flex;
+    justify-content:flex-end;
+    margin:16px 0 24px;
+}
+.print-button{
+    background:#0b2c6f;
+    border:1px solid #0b2c6f;
+    color:#fff;
+    padding:8px 14px;
+    font-size:12px;
+    border-radius:4px;
+    cursor:pointer;
+}
+.print-button:hover{
+    background:#093066;
+    border-color:#093066;
+}
+@media print{
+    .print-actions{
+        display:none;
+    }
+}
+</style>
+
 
 </body>
 </html>
